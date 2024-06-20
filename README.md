@@ -93,3 +93,7 @@ Query Parameters: bucketName and pattern
 200 OK: Successful retrieval.
 404 Not Found: Bucket not found or no files matching the pattern.
 500 Internal Server Error: Server error occurred.
+
+
+**Note: 
+For security purpose removed the aws accessKey & aws.secretKey in application.properties **
